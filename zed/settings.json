@@ -1,0 +1,45 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+    "vim_mode": true,
+    "ui_font_size": 16,
+    "buffer_font_size": 16,
+    "theme": {
+        "mode": "system",
+        "light": "One Light",
+        "dark": "Ayu Dark"
+    },
+    "autosave": "on_focus_change",
+    "cursor_shape": "underscore",
+    "file_scan_exclusions": [
+        "node_modules",
+        ".git",
+        ".svn",
+        ".hg",
+        ".DS_Store",
+        "Thumbs.db",
+        "desktop.ini",
+        ".vscode",
+        ".idea",
+        ".sass-cache",
+        ".cache",
+        ".c9",
+        ".zat",
+        ".zatmp",
+        ".zedstate",
+        ".zedremotes",
+        ".zedprojects",
+        ".zedplugins",
+        ".zedprefs",
+        ".zedprofiles",
+        ".zedtemp",
+        ".zedtmp"
+    ],
+    "hour_format": "24"
+}
